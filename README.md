@@ -10,8 +10,13 @@ Test de jersey & jetty dans le cadre d'un TP de création d'une API.
 
 * Exécution avec jetty : `mvn jetty:run`
 
-* Appel API : `curl "http://localhost:8080/tp-book/book/meuh"`
+* Appels API :
 
+```bash
+curl "http://localhost:8080/tp-book/books"
+
+curl "http://localhost:8080/tp-book/books/1"
+```
 
 ## Voir aussi
 
